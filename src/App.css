@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -13,6 +16,16 @@ ul{
 li{
   list-style: none;
   margin:5px
+}
+
+form{
+  
+  border: 1px solid black;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 500px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

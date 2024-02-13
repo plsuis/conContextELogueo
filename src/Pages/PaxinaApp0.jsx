@@ -1,5 +1,12 @@
+import { useDatosContext } from "../componentes/useDatosContext";
+
 const PaxinaApp0 = () => {
-    return <h1>PaxinaApp0</h1>;
+  const {logout} = useDatosContext()
+    return (<>
+    <h1>PaxinaApp0</h1>
+    <button onClick={logout}>Sair</button>
+    </>
+    );
   };
   
   
