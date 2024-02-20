@@ -9,17 +9,17 @@ import NoPage from "../Pages/NoPage";
 
 export default function Rutas(){
     return(<>
-    <Routes>
-            <Route path="/" element={<Layout />}>
+          <Routes>
+              <Route path="/" element={<Layout />}>
             
-              <Route index element={<Home />} />
-              <Route path="blogs" element={<Blogs />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="logueo" element={<Logueo />} />
-              <Route path="paxinaapp0" element={<PaxinaApp0 />} />
-              <Route path="*" element={<NoPage />} />
+                <Route index element={<Home />} />
+                <Route path="blogs" element={<Blogs />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="logueo" element={<Logueo />} />
+                <Route path="paxinaapp0" element={<PaxinaApp0 />} />
+                <Route path="*" element={<NoPage />} />
               
-            </Route>
+              </Route>
           </Routes>
     </>)
 }
